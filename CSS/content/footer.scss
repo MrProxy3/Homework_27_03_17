@@ -1,0 +1,19 @@
+.footer {
+  background: $blue;
+  height: $footer_height;
+  text-align: center;
+  clear: both;
+  box-shadow: 0 0 5px #000;
+  color: #fff;
+  font-family: serif;
+  font-size: 14px;
+  text-decoration: underline;
+    &:before {
+      content: '';
+      width: 0;
+      font-size: 0;
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+}
